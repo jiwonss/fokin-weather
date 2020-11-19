@@ -6,34 +6,44 @@ import { LinearGradient } from "expo-linear-gradient";
 
 const weatehrOptions = {
   Thunderstorm: {
-    iconName: "",
-    gradient: [],
+    iconName: "weatehr-lightning",
+    gradient: ["#ffffff", "#24243e"],
+    title: "Thunderstorm",
+    subtitle: "Stay home!",
   },
   Drizzle: {
-    iconName: "",
-    gradient: [],
+    iconName: "weather-rainy",
+    gradient: ["#525252", "#3d72b4"],
+    title: "Drizzle",
+    subtitle: "It's raining!",
   },
   Rain: {
-    iconName: "",
-    gradient: [],
+    iconName: "weather-hail",
+    gradient: ["#304352", "#d7d2cc"],
+    title: "Rain",
+    subtitle: "It's raining!",
   },
   Snow: {
-    iconName: "",
-    gradient: [],
+    iconName: "weather-snow-heavy",
+    gradient: ["#363795", "#005C97"],
+    title: "Snow",
+    subtitle: "It's snowing!",
   },
   Atmosphere: {
     iconName: "",
-    gradient: [],
+    gradient: ["#fc00ff", "#00dbde"],
   },
   Clear: {
-    iconName: "weather-hail",
-    gradient: ["#4DA0B0", "#D39D38"],
+    iconName: "weather-sunny",
+    gradient: ["#5614B0", "#DBD65C"],
     title: "Clear",
-    subtitle: "go outside",
+    subtitle: "It's sunny! Go outside!",
   },
   Clouds: {
-    iconName: "",
-    gradient: [],
+    iconName: "weather-cloud",
+    gradient: ["#2c3e50", "#3498db"],
+    title: "Cloud",
+    subtitle: "It's cloudy day",
   },
 };
 
